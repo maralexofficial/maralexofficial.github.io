@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Pages Site</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background: #24292e;
+            color: white;
+            padding: 40px;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,.1);
+        }
+
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            color: #777;
+        }
+
+        button {
+            background: #0366d6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #024ea2;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My GitHub Pages</h1>
+    <p>Hosted for free with GitHub Pages</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        Hello! I'm a web developer learning HTML, CSS, and JavaScript.
+    </p>
+
+    <button onclick="showMessage()">Click Me</button>
+
+    <p id="message"></p>
+
+    <h3>Links</h3>
+    <p>
+        <a href="https://github.com/yourusername" target="_blank">
+            My GitHub Profile
+        </a>
+    </p>
+</section>
+
+<footer>
+    © 2026 Your Name
+</footer>
+
+<script>
+function showMessage() {
+    document.getElementById("message").innerHTML =
+        "Thanks for visiting my GitHub Pages site!";
+}
+</script>
+
+</body>
+</html>
